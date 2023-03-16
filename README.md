@@ -140,7 +140,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - From the Azure Portal, restart Client-1
   - Login to Client-1 as the original local admin and join it to the domain (computer will restart)
   - Login to the Domain Controller and verify Client-1 shows up in the ADUC
-  - Create a new OU named "_CLIENTS" and drag the Client-1 into there
 </p>
 <br />
 
