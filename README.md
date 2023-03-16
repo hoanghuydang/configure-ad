@@ -178,7 +178,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/4XItpBF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/G2DHDBD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/JXKsxqV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </h2>STEP 7: CREATE A BUNCH OF ADDITIONAL USERS AND ATTEMPT TO LOG INTO CLIENT-1 WITH ONE OF THE USERS</h2>
