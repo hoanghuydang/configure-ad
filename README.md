@@ -75,12 +75,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ecPXY1o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/RP7E106.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </h2>STEP 3: INSTALL ACTIVE DIRECTORY</h2>
 
-  - Google and Download VC_redist.8.exe
+  - Login to DC-1 and install Active Directory Domain Services
+  - Promote as a DC: Setup a new forest as mydomain.com
+  - Restart and log back into the DC-1
 </p>
 <br />
 
