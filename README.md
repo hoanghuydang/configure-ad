@@ -145,7 +145,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4QA7Zou.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </h2>STEP 6: SETUP REMOTE DESKTOP FOR NON-ADMINISTRATIVE USERS ON CLIENT-1</h2>
@@ -160,7 +160,26 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0Njk5eE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/Ji3BWkP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/WugEFX1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/7cXUyud.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/4XItpBF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <img src="https://i.imgur.com/G2DHDBD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </h2>STEP 7: CREATE A BUNCH OF ADDITIONAL USERS AND ATTEMPT TO LOG INTO CLIENT-1 WITH ONE OF THE USERS</h2>
@@ -169,6 +188,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Open Powershell_ise as an administrator
   - Create a new File and paste the contents of the script into it
   - Run the script and observe the accounts in the appropriate OU
-  - Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+  - Attempt to log into Client-1 with one of the accounts
 </p>
 <br />
