@@ -165,6 +165,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 </h2>STEP 7: CREATE A BUNCH OF ADDITIONAL USERS AND ATTEMPT TO LOG INTO CLIENT-1 WITH ONE OF THE USERS</h2>
 
-  - Google and Download VC_redist.8.exe
+  - Login to DC-1 as jane_admin
+  - Open Powershell_ise as an administrator
+  - Create a new File and paste the contents of the script into it
+  - Run the script and observe the accounts in the appropriate OU
+  - Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 </p>
 <br />
