@@ -66,7 +66,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/w7qdfLQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</h2>STEP 2: ENSURE CONNECTIVITY BETWEEN THE CLIENT AND DOMAIN CONTOLLER</h2>
+</h2>STEP 2: ENSURE CONNECTIVITY BETWEEN THE CLIENT AND DOMAIN CONTROLLER</h2>
 
   - Login to Client-1 and ping DC-1's Private IP Address with ping -t (perpetual ping)
   - Login to Domain Controller and enable ICMPv4 in on the local windows Firewall
