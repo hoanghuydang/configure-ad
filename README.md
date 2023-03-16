@@ -91,12 +91,30 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hlVvmcc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/bep6ATM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/49Sv6yP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/pZhhtKG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </h2>STEP 4: CREATE AND ADMIN AND NORMAL USER ACCOUNT</h2>
 
-  - Google and Download VC_redist.8.exe
+  - In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called "Employees"
+  - Create a new employee named "Bob Jones"
+  - Create a new OU named "_ADMINS"
+  - Create a new employee Jane Doe
+  - Add jane_admin to the "Domain Admins" Security Group
+  - Log Out/ close the connection to DC-1 and log back in as "mydomain.com\jane_admin"
+  - User jane_admin as your admin account from now on
 </p>
 <br />
 
@@ -106,7 +124,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 </h2>STEP 5: JOIN CLIENT-1 TO YOUR DOMAIN</h2>
 
-  - Google and Download VC_redist.8.exe
+  - From the Azure Portal, set Client-1's DNS settings to the DC's Private IP address
+  - From the Azure Portal, restart Client-1
+  - Login to Client-1 as the original local admin and join it to the domain (computer will restart)
+  - Login to the Domain Controller and verify Client-1 shows up in the ADUC
+  - Create a new OU named "_CLIENTS" and drag the Client-1 into there
 </p>
 <br />
 
@@ -116,7 +138,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 </h2>STEP 6: SETUP REMOTE DESKTOP FOR NON-ADMINISTRATIVE USERS ON CLIENT-1</h2>
 
-  - Google and Download VC_redist.8.exe
+  - Log into Client-1 as mydomain.com/jane_admin and open system properties
+  - Click "Remote Desktop"
+  - Allow "domain users" access to remote desktop
+  - Log out of Client-1 and log back in as mydomain.com\ 'employee' to test it
+  - You can now log into Client-1 as a normal, non administrative user now
+  
 </p>
 <br />
 
