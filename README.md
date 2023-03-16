@@ -42,7 +42,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
   <p>
-<img src="https://i.imgur.com/aMWcNRA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wPTtIb4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </h2>STEP 1: SETUP RESOURCES IN AZURE</h2>
